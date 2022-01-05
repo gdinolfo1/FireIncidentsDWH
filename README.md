@@ -5,7 +5,7 @@ The dataset provides from the 'San Francisco Datasets' webpage, and it includes 
 
 The **pipeline** will be the following:
 
-![diagram](https://github.com/gdinolfo1/FireIncidents_DWH/blob/main/assets/Pipeline%20Diagram.JPG?raw=true)
+![diagram](https://github.com/gdinolfo1/FireIncidentsDWH/blob/main/assets/PipelineDiagram.JPG?raw=true)
 
 I assume that the datasets are generated daily in the Transactional System on-premise. 
 
@@ -24,11 +24,11 @@ For the sake of this exercise, the data warehouse is going to have only two tabl
 
 Finally we could run queries into the BigqQuery GCP as the following:
 
-![query1](https://github.com/gdinolfo1/FireIncidents_DWH/blob/main/assets/query1.JPG?raw=true)
+![query1](https://github.com/gdinolfo1/FireIncidentsDWH/blob/main/assets/query1.JPG?raw=true)
 
 **Results**
 
-![results](https://github.com/gdinolfo1/FireIncidents_DWH/blob/main/assets/Results.JPG?raw=true)
+![results](https://github.com/gdinolfo1/FireIncidentsDWH/blob/main/assets/Results.JPG?raw=true)
 
 
 
@@ -39,7 +39,7 @@ Using Apache Airflow we could schedule the task with a daily frequency. It will 
 
 You have to turn on the DAG at Apache Airflow interface at localhost:8080
 
-![airflow1](https://github.com/gdinolfo1/FireIncidents_DWH/blob/main/assets/Airflow1.JPG?raw=true)
+![airflow1](https://github.com/gdinolfo1/FireIncidentsDWH/blob/main/assets/Airflow1.JPG?raw=true)
 
 
 
