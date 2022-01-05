@@ -15,7 +15,7 @@ For example: "fireincidents20220401.csv".
 
 A Python script is going to be run daily scheduled with Apache Airflow. This is going to extract / clean / split the dataset into different dataframes / load the dataframes as tables into BigQuery Platform. It will be an incremental load everydays. I assume that the new file generated has only new incidents numbers.
 
-Python script 'fireIncidentsETL_DWH.py': https://github.com/gdinolfo1/FireIncidents_DWH/blob/main/fireIncidentsETL_DWH.py
+Python script 'fireIncidentsETL_DWH.py': https://github.com/gdinolfo1/FireIncidentsDWH/blob/main/Apache_Airflow/dags/fireIncidentsETL_DWH.py
 
 For the sake of this exercise, the data warehouse is going to have only two tables:
 
